@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Oid85.PrintTemplate.Common.KnownConstants;
-using Oid85.PrintTemplate.Infrastructure.Entities;
-using Oid85.PrintTemplate.Infrastructure.Schemas;
+using Oid85.PrintTemplate.Infrastructure.Database.Entities;
+using Oid85.PrintTemplate.Infrastructure.Database.Schemas;
 
-namespace Oid85.PrintTemplate.Infrastructure;
+namespace Oid85.PrintTemplate.Infrastructure.Database;
 
 public class PrintTemplateContext(DbContextOptions<PrintTemplateContext> options) : DbContext(options)
 {

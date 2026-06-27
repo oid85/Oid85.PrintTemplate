@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Oid85.PrintTemplate.Infrastructure.Entities.Base;
+namespace Oid85.PrintTemplate.Infrastructure.Database.Entities.Base;
 
 public class BaseEntity
 {

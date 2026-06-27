@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="FastReport.Core" />
+	  <PackageReference Include="FastReport.Core.Skia.Demo" />
 	  <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
   </ItemGroup>
@@ -14,6 +16,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Oid85.PrintTemplate.Common\Oid85.PrintTemplate.Common.csproj" />
     <ProjectReference Include="..\Oid85.PrintTemplate.Core\Oid85.PrintTemplate.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Templates\" />
   </ItemGroup>
 
 </Project>

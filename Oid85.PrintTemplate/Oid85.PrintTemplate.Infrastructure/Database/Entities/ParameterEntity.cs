@@ -1,6 +1,6 @@
-﻿using Oid85.PrintTemplate.Infrastructure.Entities.Base;
+﻿using Oid85.PrintTemplate.Infrastructure.Database.Entities.Base;
 
-namespace Oid85.PrintTemplate.Infrastructure.Entities
+namespace Oid85.PrintTemplate.Infrastructure.Database.Entities
 {
     /// <summary>
     /// Параметр

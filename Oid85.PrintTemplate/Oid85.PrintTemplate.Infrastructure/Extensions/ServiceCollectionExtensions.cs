@@ -4,7 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Oid85.PrintTemplate.Application.Interfaces.Repositories;
 using Oid85.PrintTemplate.Common.KnownConstants;
-using Oid85.PrintTemplate.Infrastructure.Repositories;
+using Oid85.PrintTemplate.Infrastructure.Database;
+using Oid85.PrintTemplate.Infrastructure.Database.Repositories;
 
 namespace Oid85.PrintTemplate.Infrastructure.Extensions;
 
