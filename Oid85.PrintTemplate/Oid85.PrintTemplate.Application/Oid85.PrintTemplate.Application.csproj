@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="FastReport.Core" />
-	  <PackageReference Include="FastReport.Core.Skia.Demo" />
 	  <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
   </ItemGroup>

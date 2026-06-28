@@ -2,5 +2,11 @@
 {
     public class CreatePrintTemplateRequest
     {
+        public ResponseDataModel Data { get; set; } = new();
+    }
+
+    public class ResponseDataModel
+    {
+
     }
 }
